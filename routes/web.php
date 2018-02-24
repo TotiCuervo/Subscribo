@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/Subscribo', 'HomeController@index')->name('subscribo');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

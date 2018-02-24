@@ -66,12 +66,13 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
+            <a href="{{ route('subscribo') }}">Subscribo</a>
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
                     @else
-                        <a href="{{ route('login') }}">Login</a>
+                        <a href="{{ route('subscribo') }}">Subscribo</a>
                         <a href="{{ route('register') }}">Register</a>
                     @endauth
                 </div>
