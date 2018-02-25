@@ -13,8 +13,8 @@
 
 Route::get('/', 'HomeController@index')->name('home');
 
-Route::get('/Subscribo', 'HomeController@index')->name('subscribo');
 Auth::routes();
+Route::get('/dashboard', 'DashboardController@index')->name('subscribo');
 
 Route::get('/pay', 'PaymentController@index')->name('pay');
 Route::post('/payment', 'PaymentController@pay')->name('subscriptionCreate');
