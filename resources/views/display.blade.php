@@ -15,7 +15,7 @@
                     </div>
                     <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseExample1"
                             aria-expanded="false" aria-controls="collapseExample">
-                        <img class="img-fluid" src="/img/Netflix-Logo-png.png">
+                        {{--<img class="img-fluid" src="/img/Netflix-Logo-png.png">--}}
                     </button>
                     <div class="collapse multi-collapse" id="collapseExample1">
                         <div class="card card-body">
@@ -38,7 +38,7 @@
                     </div>
                     <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseExample2"
                             aria-expanded="false" aria-controls="collapseExample">
-                        <img class="img-fluid" src="/img/Hulu.png">
+                        {{--<img class="img-fluid" src="/img/Hulu.png">--}}
                     </button>
                     <div class="collapse multi-collapse" id="collapseExample2">
                         <div class="card card-body">
@@ -62,7 +62,7 @@
                     <button class="btn btn-link" type="button" data-toggle="collapse"
                             data-target="#collapseExample3"
                             aria-expanded="false" aria-controls="collapseExample">
-                        <img class="img-fluid" src="/img/Crunchyroll.png">
+                        {{--<img class="img-fluid" src="/img/Crunchyroll.png">--}}
                     </button>
                     <div class="collapse multi-collapse" id="collapseExample3">
                         <div class="card card-body">
