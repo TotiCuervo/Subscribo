@@ -77,21 +77,21 @@
                 <div class="col-lg-4">
                     <div class="box wow fadeInLeft">
                         <div class="card">
-                            <img class="img-fluid" style="height:50%;" src="/img/Netflix-Logo-png.png">
+                            <img class="img-fluid" src="/img/Netflix-Logo-png.png">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="box wow fadeInLeft">
                         <div class="card">
-                            <img class="img-fluid" style="height:50%;" src="/img/Hulu.png">
+                            <img class="img-fluid" src="/img/Hulu.png">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="box wow fadeInLeft">
                         <div class="card">
-                            <img class="img-fluid" style="height:50%;" src="/img/Crunchyroll.png">
+                            <img class="img-fluid" src="/img/Crunchyroll.png">
                         </div>
                     </div>
                 </div>
