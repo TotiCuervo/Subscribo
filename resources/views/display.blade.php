@@ -17,7 +17,7 @@
                     </button>
                     <div class="collapse multi-collapse" id="collapseExample1">
                         <div class="card card-body">
-                            <b>Username:</b> mailto:flocked@mailinator.com
+                            <b>Username:</b> flocked@mailinator.com
                             <b>Password:</b> <p>>aG,2Z!&#60;&#47;&#61;&#63;pAw3&#40;</p>
                         </div>
                     </div>
@@ -38,7 +38,7 @@
                     </button>
                     <div class="collapse multi-collapse" id="collapseExample2">
                         <div class="card card-body">
-                            <strong>Username:</strong> mailto:flocked@mailinator.com
+                            <strong>Username:</strong> flocked@mailinator.com
                             <strong>Password:</strong> &#35;&#126;T67&#94;f&#47;a9&#64;&#95;b7Y
                         </div>
                     </div>

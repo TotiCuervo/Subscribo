@@ -113,7 +113,7 @@
                     <h3 class="cta-title">Subscribe to Subscribo</h3>
                 </div>
                 <div class="col-lg-2 cta-btn-container text-center">
-                    <a class="cta-btn align-middle" href="#">Subscribe</a>
+                    <a class="cta-btn align-middle" href="{{ route('register') }}">Subscribe</a>
                 </div>
                 <div class="col-lg-3 text-center text-lg-left">
 
@@ -161,7 +161,7 @@
                             <li><i class="ion-android-checkmark-circle"></i>Never worry about ending a subscription again</li>
                             <li><i class="ion-android-checkmark-circle"></i>Unless you consider us, I guess</li>
                         </ul>
-                        <a href="#" class="get-started-btn">Get Started</a>
+                        <a href="#" class="get-started-btn">You made the right choice</a>
                     </div>
                 </div>
 
@@ -176,7 +176,7 @@
                             <li><i class="ion-android-checkmark-circle"></i><strike>Won't come with free shipping<strike></li>
                             <li><i class="ion-android-checkmark-circle"></i><strike>We'll charge you twice<strike></li>
                         </ul>
-                        <a href="#" class="get-started-btn">Get Started</a>
+                        <a href="#" class="get-started-btn">Give us your money</a>
                     </div>
                 </div>
 
