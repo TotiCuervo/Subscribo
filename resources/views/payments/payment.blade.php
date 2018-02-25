@@ -5,23 +5,39 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <form action="{{ route('subscriptionCreate') }}" method="POST" id="payment-form">
-                        {{ csrf_field() }}
+                    @if ($user->subscribed('main'))
+                        @if ($user->subscription('main')->onGracePeriod())
+                            <h3>You are still on your grace period</h3>
+                            <form action="{{ route('subscriptionResume') }}" method="POST">
+                                {{ csrf_field() }}
+                                <button>Resume</button>
+                            </form>
+                        @else
+                            <h3>You have already subscribed</h3>
+                            <form action="{{ route('subscriptionCancel') }}" method="POST">
+                                {{ csrf_field() }}
+                                <button>Cancel Subscription</button>
+                            </form>
+                        @endif
+                    @else
+                        <form action="{{ route('subscriptionCreate') }}" method="POST" id="payment-form">
+                            {{ csrf_field() }}
 
-                        <div class="form-group">
-                            <label for="card-element">
-                                Credit or debit card
-                            </label>
-                            <div id="card-element">
-                                <!-- A Stripe Element will be inserted here. -->
+                            <div class="form-group">
+                                <label for="card-element">
+                                    Credit or debit card
+                                </label>
+                                <div id="card-element">
+                                    <!-- A Stripe Element will be inserted here. -->
+                                </div>
+
+                                <!-- Used to display Element errors. -->
+                                <div id="card-errors" role="alert"></div>
                             </div>
 
-                            <!-- Used to display Element errors. -->
-                            <div id="card-errors" role="alert"></div>
-                        </div>
-
-                        <button>Submit Payment</button>
-                    </form>
+                            <button>Submit Payment</button>
+                        </form>
+                    @endif
                 </div>
             </div>
 

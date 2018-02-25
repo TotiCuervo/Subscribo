@@ -22,3 +22,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/pay', 'PaymentController@index')->name('pay');
 Route::post('/payment', 'PaymentController@pay')->name('subscriptionCreate');
+
+Route::post('/cancel', 'PaymentController@cancel')->name('subscriptionCancel');
+Route::post('/resume', 'PaymentController@resume')->name('subscriptionResume');

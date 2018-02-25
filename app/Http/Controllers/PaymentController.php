@@ -15,11 +15,41 @@ class PaymentController extends Controller
     }
 
     public function index(){
-        return view('payments.payment');
+        $user = Auth::user();
+        return view('payments.payment')->with('user',$user);
     }
 
     public function pay(Request $request){
-        dd($request->all());
+        //dd($request->all());
+        if (Auth::check()) {
+            $user = Auth::user();
+            if (!$user->subscribed('main')) {
+                $user->newSubscription('main', env('STRIPE_SUB'))->create($request->stripeToken);
+            }else{
+                return view('payments.payment')->with('user',$user);
+            }
+        }else{
+            return response('unauthorized', 403);
+        }
+
+    }
+
+    public function cancel(Request $request){
+        if (Auth::check()) {
+            $user = Auth::user();
+            $user->subscription('main')->cancel();
+        }else{
+            return response('unauthorized', 403);
+        }
+    }
+
+    public function resume(Request $request){
+        if (Auth::check()) {
+            $user = Auth::user();
+            $user->subscription('main')->resume();
+        }else{
+            return response('unauthorized', 403);
+        }
     }
 
 }
