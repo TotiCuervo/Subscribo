@@ -4,8 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class DashboardController extends Controller
 {
+    //
     /**
      * Create a new controller instance.
      *
@@ -13,16 +14,12 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-
+        $this->middleware('auth');
+        $this->middleware('subscription');
     }
 
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        return view('home');
+    public function index(){
+        return view('display');
     }
+
 }
