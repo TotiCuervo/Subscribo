@@ -15,6 +15,11 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i"
           rel="stylesheet">
 
+    <title>{{ config('app.name', 'Laravel') }}</title>
+    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+
+
     <!-- Bootstrap CSS File -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -65,6 +70,7 @@
 
 <!-- Template Main Javascript File -->
 <script src="js/main.js"></script>
+
 
 </body>
 </html>
