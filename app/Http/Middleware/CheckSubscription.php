@@ -18,7 +18,7 @@ class CheckSubscription
     {
         if(Auth::check()){
             if (Auth::user()->subscribed('main')) {
-                return true;
+                return $next($request);
             }else{
                 return redirect('/pay');
             }

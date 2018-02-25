@@ -25,6 +25,7 @@ class PaymentController extends Controller
             $user = Auth::user();
             if (!$user->subscribed('main')) {
                 $user->newSubscription('main', env('STRIPE_SUB'))->create($request->stripeToken);
+                return redirect()->route('subscribo');
             }else{
                 return view('payments.payment')->with('user',$user);
             }
@@ -37,7 +38,8 @@ class PaymentController extends Controller
     public function cancel(Request $request){
         if (Auth::check()) {
             $user = Auth::user();
-            $user->subscription('main')->cancel();
+            $user->subscription('main')->cancelNow();
+            return redirect()->route('pay');
         }else{
             return response('unauthorized', 403);
         }
@@ -47,6 +49,7 @@ class PaymentController extends Controller
         if (Auth::check()) {
             $user = Auth::user();
             $user->subscription('main')->resume();
+            return redirect()->route('subscribo');
         }else{
             return response('unauthorized', 403);
         }
