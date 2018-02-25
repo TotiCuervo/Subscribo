@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-    background: linear-gradient(45deg, #000000, #000000);
+    background: linear-gradient(45deg, #ffffff, #ffffff);
     padding: 20px 0;
     height: 72px;
     transition: all 0.5s;
