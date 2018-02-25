@@ -11,14 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('/Subscribo', 'HomeController@index')->name('subscribo');
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/pay', 'PaymentController@index')->name('pay');
 Route::post('/payment', 'PaymentController@pay')->name('subscriptionCreate');
