@@ -16,6 +16,7 @@ class CheckSubscription
      */
     public function handle($request, Closure $next)
     {
+        //
         if(Auth::check()){
             if (Auth::user()->subscribed('main')) {
                 return $next($request);
