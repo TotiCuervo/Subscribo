@@ -19,7 +19,7 @@
                 <div class="carousel-item active">
                     <img class="d-block img-fluid" src="img/slides/slide1.jpg" alt="Los Angeles">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Test</h5>
+                        <h5>TestTestTestTestTestTestTestTestTest</h5>
                         <p>Trial</p>
                     </div>
                 </div>
