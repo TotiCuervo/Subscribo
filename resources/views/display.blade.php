@@ -9,9 +9,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-header text-center">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
-                            Netflix
-                        </button>
+                        Netflix
                     </div>
                     <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseExample1"
                             aria-expanded="false" aria-controls="collapseExample">
@@ -19,8 +17,8 @@
                     </button>
                     <div class="collapse multi-collapse" id="collapseExample1">
                         <div class="card card-body">
-                            <b>Username:</b> Tacoparty@mailinator.com
-                            <b>Password:</b> 12345678ytertyjhg
+                            <b>Username:</b> mailto:flocked@mailinator.com
+                            <b>Password:</b> <p>>aG,2Z!&#60;&#47;&#61;&#63;pAw3&#40;</p>
                         </div>
                     </div>
                     <div class="collapse multi-collapse" id="collapseExample4">
@@ -40,8 +38,8 @@
                     </button>
                     <div class="collapse multi-collapse" id="collapseExample2">
                         <div class="card card-body">
-                            <strong>Username:</strong> YouandItogether@mailinator.com
-                            <strong>Password:</strong> lajgwavdsaljkalsd
+                            <strong>Username:</strong> mailto:flocked@mailinator.com
+                            <strong>Password:</strong> &#35;&#126;T67&#94;f&#47;a9&#64;&#95;b7Y
                         </div>
                     </div>
                     <a href="https://www.Hulu.com" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Like it? Subscribe to them!</a>
@@ -57,8 +55,8 @@
                     </button>
                     <div class="collapse multi-collapse" id="collapseExample3">
                         <div class="card card-body">
-                            <strong>Username:</strong> Pokelover9000@mailinator.com
-                            <strong>Password:</strong> 12hi12uih12jo4i
+                            <strong>Username:</strong> redcrunchbar
+                            <strong>Password:</strong> &#43;bX4H&#61;&#39;m3&#60;A&#38;3b56
                         </div>
                     </div>
                     <a href="https://www.Crunchyroll.com" style="color:white;"  class="btn btn-warning btn-lg active" role="button" aria-pressed="true">Like it? Subscribe to them!</a>
