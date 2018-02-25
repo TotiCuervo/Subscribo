@@ -109,10 +109,10 @@
                 <div class="col-lg-3 text-center text-lg-left">
 
                 </div>
-                <div class="col-lg-3 text-center text-lg-left">
+                <div class="col-lg-4 text-center text-lg-left">
                     <h3 class="cta-title">Subscribe to Subscribo</h3>
                 </div>
-                <div class="col-lg-3 cta-btn-container text-center">
+                <div class="col-lg-2 cta-btn-container text-center">
                     <a class="cta-btn align-middle" href="#">Subscribe</a>
                 </div>
                 <div class="col-lg-3 text-center text-lg-left">

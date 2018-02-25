@@ -11,6 +11,10 @@
 |
 */
 
+Route::get('/home', function () {
+    return redirect()->route('subscribo');
+});
+
 Route::get('/', 'HomeController@index')->name('home');
 
 Auth::routes();
