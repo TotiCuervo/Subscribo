@@ -828,3 +828,9 @@ background-color: #6BAACE !important; ;
     background-color:#CD4627 ;
     border: none;
 }
+.back-to-top{
+    background-color:#CD4627 !important ;
+}
+.back-to-top:hover{
+    background-color:#CD4627 !important ;
+}
