@@ -471,7 +471,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-header .section-title {
     font-size: 32px;
-    color: #111;
+    color: #ffffff;
     text-align: center;
     font-weight: 400;
 }
@@ -486,8 +486,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: block;
     width: 60px;
     height: 3px;
-    background: #1dc8cd;
-    background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+    background: #cd4627;
+    background: linear-gradient(0deg, #cd4627 0%, #cd4627 100%);
     margin: 0 auto;
     margin-bottom: 20px;
 }
@@ -550,7 +550,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content i {
     font-size: 20px;
     padding-right: 4px;
-    color: #1dc8cd;
+    color: #cd4627;
 }
 
 #about .content ul {
@@ -613,8 +613,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-    background: #1dc8cd;
-    border: 2px solid #1dc8cd;
+    background: #cd4627;
+    border: 2px solid #cd4627;
 }
 
 /* More Features Section
@@ -625,6 +625,10 @@ img {
 }
 p {
     overflow: hidden;
+}
+
+.logo{
+    max-width:20%;
 }
 
 
@@ -654,8 +658,8 @@ p {
 }
 
 #more-features .icon i:before {
-    background: #1dc8cd;
-    background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+    background: #cd4627;
+    background: linear-gradient(45deg, #cd4627 0%, #cd4627 100%);
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
