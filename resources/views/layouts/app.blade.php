@@ -28,7 +28,7 @@
     <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">g
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
 </head>
