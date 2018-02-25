@@ -47,7 +47,7 @@
                     <li><a href="{{ route('login') }}" class="w3-button w3-black w3-round-xxlarge" id="login">Login</a></li>
                     <li><a href="{{ route('register') }}" class="btn btn-primary btn-lg" id="subscribe">Subscribe</a></li>
                 @else
-                    <li><a href="{{ route('subscribo') }}" class="w3-button w3-black w3-round-xxlarge" id="login">Login</a></li>
+                    <li><a href="{{ route('subscribo') }}" class="w3-button w3-black w3-round-xxlarge" id="login">Dashboard</a></li>
                     @endguest
                 {{--<li><a href="{{ route('login') }}" class="w3-button w3-black w3-round-xxlarge" id="login">Login</a></li>--}}
                 {{--<li><a href="{{ route('register') }}" class="btn btn-primary btn-lg" id="subscribe">Subscribe</a></li>--}}
