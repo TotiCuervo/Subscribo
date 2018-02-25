@@ -18,7 +18,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/homepage', 'HomeController@index')->name('home');
-Route::get('dashboard','Dashboardontroller@index')->name('subscribo');
+Route::get('dashboard','DashboardController@index')->name('subscribo');
 Route::get('/pay', 'PaymentController@index')->name('pay');
 Route::post('/payment', 'PaymentController@pay')->name('subscriptionCreate');
 
