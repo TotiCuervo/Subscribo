@@ -103,12 +103,17 @@
     <section id="call-to-action">
         <div class="container">
             <div class="row">
-                <div class="col-lg-9 text-center text-lg-left">
+                <div class="col-lg-3 text-center text-lg-left">
+
+                </div>
+                <div class="col-lg-3 text-center text-lg-left">
                     <h3 class="cta-title">Subscribe to Subscribo</h3>
-                    <p class="cta-text">fix this</p>
                 </div>
                 <div class="col-lg-3 cta-btn-container text-center">
-                    <a class="cta-btn align-middle" href="#">Call To Action</a>
+                    <a class="cta-btn align-middle" href="#">Subscribe</a>
+                </div>
+                <div class="col-lg-3 text-center text-lg-left">
+
                 </div>
             </div>
 

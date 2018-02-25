@@ -566,12 +566,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #call-to-action {
     width: 100%;
-    height: 20vh;
+    /*height: 300px;*/
     opacity: 0.9;
     background: rgba(0, 0, 0,0.60);
-    background: url(../img/subscribologo.PNG) fixed center center;
+
     background-size: cover;
-    padding: 300px 0;
+    padding: 70px 0;
+    background-color: #CD4627;
+    color: #fff;
 }
 
 #call-to-action .cta-title-opening {
