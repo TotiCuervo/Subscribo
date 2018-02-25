@@ -817,6 +817,14 @@ p {
     border-radius: .3rem;
     font-size: 1.25rem;
 }
-header{
+.header-fixed{
     backgorund-color:#ffffff;
+}
+
+#login{
+background-color: #6BAACE !important; ;
+}
+#subscribe{
+    background-color:#CD4627 ;
+    border: none;
 }
