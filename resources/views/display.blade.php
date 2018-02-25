@@ -1,4 +1,4 @@
-@extends('layouts.backend')
+@extends('layouts.app')
 
 @section('content')
     <div class="container">
@@ -33,9 +33,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <div class="card-header text-center">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">Hulu</button>
-                    </div>
+                    <div class="card-header text-center">Hulu</div>
                     <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseExample2"
                             aria-expanded="false" aria-controls="collapseExample">
                         <img class="img-fluid" src="/img/Hulu.png">
@@ -45,20 +43,13 @@
                             <strong>Username:</strong> YouandItogether@mailinator.com
                             <strong>Password:</strong> lajgwavdsaljkalsd
                         </div>
-                        <div class="collapse multi-collapse" id="collapseExample5">
-                            <div class="card card-body">
-                                Dummy
-                            </div>
-                        </div>
                     </div>
                     <a href="https://www.Hulu.com" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Like it? Subscribe to them!</a>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <div class="card-header text-center">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample">Crunchyroll</button>
-                    </div>
+                    <div class="card-header text-center">Crunchyroll</div>
                     <button class="btn btn-link" type="button" data-toggle="collapse"
                             data-target="#collapseExample3"
                             aria-expanded="false" aria-controls="collapseExample">
@@ -68,11 +59,6 @@
                         <div class="card card-body">
                             <strong>Username:</strong> Pokelover9000@mailinator.com
                             <strong>Password:</strong> 12hi12uih12jo4i
-                        </div>
-                        <div class="collapse multi-collapse" id="collapseExample6">
-                            <div class="card card-body">
-                                Dummy
-                            </div>
                         </div>
                     </div>
                     <a href="https://www.Crunchyroll.com" style="color:white;"  class="btn btn-warning btn-lg active" role="button" aria-pressed="true">Like it? Subscribe to them!</a>
