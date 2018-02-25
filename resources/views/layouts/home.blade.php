@@ -43,8 +43,8 @@
         </div>
         <nav id="nav-menu-container">
             <ul class="nav-menu">
-                <li><a href="#contact"><button class="w3-button w3-black w3-round-xxlarge">Login</button></li>
-                <li><a href="#contact"><button type="button" class="btn btn-primary btn-lg">Subscribe</button></a></li>
+                <li><a href="#contact"><button class="w3-button w3-black w3-round-xxlarge" id="login">Login</button></li>
+                <li><a href="#contact"><button type="button" class="btn btn-primary btn-lg" id="subscribe">Subscribe</button></a></li>
             </ul>
         </nav><!-- #nav-menu-container -->
     </div>
