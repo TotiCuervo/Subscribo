@@ -18,7 +18,10 @@
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
                     <img class="d-block img-fluid" src="img/slides/slide1.jpg" alt="Los Angeles">
-                    <div class="centered">Centered</div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>...</h5>
+                        <p>...</p>
+                    </div>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block img-fluid" src="img/slides/slide2.jpg" alt="Chicago">
@@ -62,7 +65,7 @@
     <!--==========================
       More Features Section
     ============================-->
-    <section id="more-features" class="section-bg">
+    <section id="more-features" class="section-bg-2">
         <div class="container">
 
             <div class="section-header">
