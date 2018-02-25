@@ -834,3 +834,8 @@ background-color: #6BAACE !important; ;
 .back-to-top:hover{
     background-color:#CD4627 !important ;
 }
+#call-to-action > div > div > div.col-lg-4.text-center.text-lg-left > h3{
+    margin-bottom:0;
+    margin-top:20px;
+    font-weight: bold;
+}
