@@ -28,7 +28,7 @@
     <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">g
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -43,8 +43,8 @@
         </div>
         <nav id="nav-menu-container">
             <ul class="nav-menu">
-                <li><a href="#contact">Login</a></li>
-                <li><a href="#contact">Register</a></li>
+                <li><a href="#contact"><button class="w3-button w3-black w3-round-xxlarge">Login</button></li>
+                <li><a href="#contact"><button type="button" class="btn btn-primary btn-lg">Subscribe</button></a></li>
             </ul>
         </nav><!-- #nav-menu-container -->
     </div>
